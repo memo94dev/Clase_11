@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sombras con CSS</title>
+    <style type="text/css">
+        #cajasombra{
+            background-color: #ddd;
+            width: 300px;
+            padding: 10px;
+            box-shadow: -5px 5px 0px #333;
+        }
+        #sombraclara{
+            margin-top: 100px;
+            background-color: 200px;
+            padding: 10px;
+            background-color: #999;
+            box-shadow: 2px 2px 2px #ffc;
+        }
+        #sombraredondeada{
+            margin-top: 100px;
+            background-color: #090;
+            color: #fff;
+            width: 400px;
+            padding: 10px;
+            border-radius: 7px;
+            box-shadow: 15px -10px 3px #000;
+        }
+        h1{
+            font-family: 'Times New Roman', Times, serif;
+            text-shadow: -2px 2px 0 #333;
+            color: #999;
+            font-size: 3em;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sombras con CSS</h1>
+    <div id="cajasombra"></div>
+    <div id="sombraclara"></div>
+    <div id="sombraredondeada"></div>
+</body>
+</html>
